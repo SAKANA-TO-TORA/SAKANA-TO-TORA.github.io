@@ -3,23 +3,57 @@
   <head>
      <link rel="stylesheet" href="orca.css">
     <title>リリース - SAKANA-TO-TORA</title>
+    <style>
+      body {
+        background-color: green;
+        color: white;
+      }
+      table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #ddd;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  th {
+    background-color: black;
+  }
+  .tdgray{
+    background-color: gray;
+  }
+  a { 
+    text-decoration: none;
+  }
+  </style>
   </head>
   <body>
     <h1>リリース作品</h1>
     <table border="1" width="500">
         <tr><th>タイトル</th><th>公開日</th><th>対応機器</th>
-          <th>ダウンロードURL</th>
+          <th>詳細　もしくは　ダウンロードURL</th>
         </tr>
         <tr>
-            <td>釣り</td>
-            <td>2022/1/21</td>
-          <td>パソコン(Windows)</td>
-          <td>
-            <a href="https://github.com/SAKANA-TO-TORA/tsuri-2022-1-21-/releases/tag/ver1.0">こちら</a>
+            <td class="tdgray">釣り</td>
+            <td class="tdgray">2022/1/21</td>
+          <td class="tdgray">パソコン(Windows)</td>
+          <td style="background-color: white;">
+            <a href="https://github.com/SAKANA-TO-TORA/tsuri-2022-1-21-/releases/tag/ver1.0" style="color: blue;">ダウンロードURLはこちら</a>
+          </td>
+        </tr>
+	 <tr>
+            <td class="tdgray">釣りII</td>
+            <td class="tdgray">2024/4/6</td>
+          <td class="tdgray">パソコン(Windows)</td>
+          <td style="background-color: white;">
+            <a href="fishing2" style="color: red;">詳細はこちら</a>
           </td>
         </tr>
     </table>
-    <br>
-    <a href="/">戻る</a>
+    <br><br>
+    <a href="/">
+      <img src="orcaback.png" width="200" height="100">
+      </a>
   </body>
 </html>
