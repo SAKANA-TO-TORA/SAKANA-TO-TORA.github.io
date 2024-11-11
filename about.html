@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
 }
-header {
+footer {
     background-color: #333;
     color: #fff;
     padding: 10px 0;
@@ -18,20 +18,10 @@ header {
 header h1 {
     margin: 0;
 }
-a {
-    text-decoration: none;
-    color: #fff;
-}
 section {
     margin: 20px;
     padding: 20px;
     border: 1px solid #ddd;
-}
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
 }
 h2 {
     color: #333;
@@ -49,31 +39,59 @@ h2 {
   -webkit-text-fill-color: transparent;
   /*くり抜いた部分は背景を表示*/
 }
-    </style>
-    <title>概要 - SAKANA-TO-TORA</title>
+button{
+    background-color: salmon;
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 15px;
+    padding: 20px 40px;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+.ccenter{
+    text-align: center;
+}
+.yellow-colored{
+    background-color: yellow;
+}
+a{
+    text-decoration: none;
+}
+.red-letter{
+    color: red;
+}
+</style>
+<title>概要 - SAKANA-TO-TORA</title>
 </head>
 <body>
-    <header>
-        <br><br>
-        <a href="/">
-        <h1>BACK</h1>
-        </a>
-        <br><br>
-    </header>
+    <br>
+    <div class="ccenter">
+    <a href="./">
+    <button>BACK</button>
+    </a>
+    </div>
+    <div class="yellow-colored">
+    <h2>概要</h2>
+    </div>
     <section>
-        <h2>あゆみ</h2>
-        <p>2021年に結成。<br>
+        <h2>歩み</h2>
+        <p>2021年9月に結成。<br>
             2022年1月に1作目のゲームを公開。<br>
-            2022年7月に<br>
-            https://main.sknttr2022.repl.co/<br>
-            でホームページ開設。<br>
-            2024年1月に<br>
-            https://sakana-to-tora.github.io/<br>
-            へホームページ移転。</p>
+            2022年7月に https://main.sknttr2022.repl.co/ でホームページ開設。<br>
+            2024年1月に https://sakana-to-tora.github.io/ へホームページ移転。</p>
     </section>
     <section>
-        <h2>がいよう</h2>
+        <h2>自己紹介</h2>
         <p>私たち、＼(⌒∀⌒)ノ SAKANA-TO-TORA (サカナトトラ) は、日本のゲーム制作集団です。<br>
+            当初より人数不明のゲーム制作者としてやっていましたが2024年11月に当初より三人で活動していることを公表しました。<br>
+            メンバーの名前は<a href="Member.html" class="red-letter">こちら</a><br>
             トレードマークは、＼(⌒∀⌒)ノ!<br>
             おそらくこのマークを生み出したのは私たちでしょう。<br>
             先に生み出した人がおられないことを願います。<br>
@@ -83,10 +101,11 @@ h2 {
         <h2>ゲームについて</h2>
         <p>我々はゲームを無償で公開しております。<br>
             金を得ようという意図がないからです。<br>
+            あと単純に著作物の権利関係で自分たちが金銭の授受をしていたら万が一にもめんどくさいことになってしまうんじゃないかという考えがありしていない面もあります。<br>
             どなたも、気軽にプレイしてください。</p>
     </section>
     <section>
-        <h2>なまえのゆらい</h2>
+        <h2>我々の名前の由来</h2>
         <p>私たちの名前は「SAKANA-TO-TORA」(サカナトトラ)です。<br>
             この名前は哺乳類のシャチから来ています。<br>
             シャチは漢字で「鯱」と書き、魚と虎というように書くので、このようなグループ名にしました。</p>
@@ -94,7 +113,7 @@ h2 {
     <p class="gradation">SAKANA-TO-TORA</p>
     <br>
     <footer>
-        <h1>&copy; SAKANA-TO-TORA<br>All rights reserved.</h1>
+        <h2 style="color: white;">&copy; SAKANA-TO-TORA<br>All rights reserved.</h2>
     </footer>
 </body>
 </html>
