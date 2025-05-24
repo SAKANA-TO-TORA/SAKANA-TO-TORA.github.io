@@ -16,6 +16,7 @@
             height: 100vh;
             text-align: center;
             animation: glitch-bg 5s infinite;
+            background-image: url(photo1.png);
         }
         h1 {
             font-size: 60px;
@@ -32,12 +33,22 @@
             padding: 0.75rem 2rem;
             font-size: 25px;
             color: #000;
-            background: #ff00ff;
+            background: lemonchiffon;
             border: none;
             cursor: pointer;
+            border-radius: 15px;
         }
         .button:hover {
-            background: #00ffff;
+            background: darkred;
+        }
+        .pic1{
+           filter: hue-rotate(180deg);
+        }
+        .pic2{
+           filter: hue-rotate(240deg);
+        }
+        .pic3{
+           filter: hue-rotate(300deg);
         }
         </style>
     </head>
@@ -46,11 +57,13 @@
             <h1>BIG TAILS!</h1>
             <p>2025/3/21<br>
             SAKANA-TO-TORA初の3Dグラフィックミニゲームを収録!</p>
-            <button class="button" onclick="location.href='../'">←back</button>
-            <button class="button" onclick="location.href='about.html'">what's "Big Tails!"?</button>
-            <button class="button" onclick="location.href='movie.html'">movie</button>
-            <button class="button" onclick="location.href='mmsp.html'">docs</button>
-            <button class="button" onclick="location.href='https://drive.google.com/file/d/1MNVOd7kvXb3KxPjankQyPPgrOlExgyu2/view?usp=drive_link'">↓download</button>
+            <a href="about.html"><img src="photo1.png" width="150" class="pic1" alt="what's 'Big Tails!'?"></a>
+            <a href="movie.html"><img src="photo1.png" width="150" class="pic2" alt="movie"></a>
+            <a href="mmsp.html"><img src="photo1.png" width="150" class="pic3" alt="docs"></a>
+            <br>
+            <a href="../fishing2/"><input type="button" class="button" value="←Fishing II"></a>
+            <a href="../"><input type="button" class="button" value="↑back"></a>
+            <a href="https://drive.google.com/file/d/1MNVOd7kvXb3KxPjankQyPPgrOlExgyu2/view?usp=drive_link"><input type="button" class="button" value="↓download"></a>
             <p>&copy;2025 SAKANA-TO-TORA All Rights Reserved</p>
         </div>
     </body>
